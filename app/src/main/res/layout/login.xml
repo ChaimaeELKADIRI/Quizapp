@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".Login"
     android:orientation="vertical">
 
     <ImageView
@@ -14,13 +14,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/etMail"
-        android:hint="email"/>
+        android:hint=" Email"
+        android:drawableLeft="@drawable/baseline_email_24"
+        />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/etPasswd"
-        android:hint="Password"
-        android:inputType="textPassword"/>
+        android:hint=" Password"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/baseline_abc_24"
+        />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

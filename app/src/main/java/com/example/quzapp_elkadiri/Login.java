@@ -15,7 +15,7 @@ public class Login extends AppCompatActivity {
     TextView tvRegister;
     protected void onCreate(Bundle s){
         super.onCreate(s);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.login);
         etMail=(EditText) findViewById(R.id.etMail);
         etPasswd=(EditText) findViewById(R.id.etPasswd);
         bLogin=(Button) findViewById(R.id.bLogin);
