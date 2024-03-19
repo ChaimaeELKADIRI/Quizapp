@@ -21,7 +21,7 @@ public class Login extends AppCompatActivity {
         bLogin=(Button) findViewById(R.id.bLogin);
         tvRegister=(TextView) findViewById(R.id.tvRegister);
         bLogin.setOnClickListener((view)->{
-            if(etMail.getText().toString().equals("toto@gmail.com") && etPasswd.getText().toString().equals(123)){
+            if(etMail.getText().toString().equals("toto") && etPasswd.getText().toString().equals(123)){
                 startActivity(new Intent(Login.this, Register.class));
             }
             else{

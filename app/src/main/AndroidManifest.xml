@@ -10,6 +10,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.QuzApp_ElKadiri">
         <activity
+            android:name=".Score"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".Quiz5"
+            android:exported="false" />
+        <activity
+            android:name=".Quiz4"
+            android:exported="false" />
+        <activity
+            android:name=".Quiz3"
+            android:exported="false" />
+        <activity
+            android:name=".Quiz2"
+            android:exported="false" />
+        <activity
+            android:name=".Quiz1"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -18,9 +40,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
-
 
     </application>
 
